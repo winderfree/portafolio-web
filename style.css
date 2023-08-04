@@ -32,9 +32,11 @@
 }
 
 
-
+/*Menu a la derecha */
+.container-fluid {
+  direction: rtl;
+}
 /* Barra de navegacion */
-
 .navbar {
   padding: 2rem;
   background-color: #f5f6f7;
