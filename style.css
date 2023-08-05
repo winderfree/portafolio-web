@@ -1,9 +1,9 @@
 
-#prueba{
+#sombra-desc{
   color:#f8e369;
   background-color: #050569;
   border-radius: 15%;
-  box-shadow:5px 5px 35px 5px #afafef;
+  box-shadow:1px 1px 11px 3px #afafef;
 }
 .proyectos-recientes .imagen-arrow-down{
     height: 7.5rem;
