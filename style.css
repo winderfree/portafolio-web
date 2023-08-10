@@ -1,9 +1,21 @@
-
+.hero-inferior {
+  display: inline-table;
+  height: 70px;
+  width: auto;
+  margin-bottom: 3rem;
+}
+.img-fluid{
+  height: 90px;
+  margin: 7px;
+}
 #sombra-desc{
-  color:#f8e369;
+  height: 5px;
+  width: 1156px;
+  text-align: justify;
+  color: #f8e369;
   background-color: #050569;
-  border-radius: 15%;
-  box-shadow:1px 1px 11px 3px #afafef;
+  border-radius: 50%;
+  box-shadow: 1px 1px 11px 3px #afafef;
 }
 .proyectos-recientes .imagen-arrow-down{
     height: 7.5rem;
@@ -334,6 +346,7 @@ h1 {
 }
 
 .contacto button {
+  margin-top: 45px;
   color: white;
   font-weight: bold;
   background-color: transparent;
