@@ -9,12 +9,10 @@
   margin: 7px;
 }
 #sombra-desc{
-  height: 5px;
-  width: 1156px;
   text-align: justify;
-  color: #f8e369;
-  background-color: #050569;
-  border-radius: 50%;
+  color: #f5d72c;
+  background-color: #2e2eea;
+  border-radius: 2.5%;
   box-shadow: 1px 1px 11px 3px #afafef;
 }
 .proyectos-recientes .imagen-arrow-down{
@@ -329,7 +327,7 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -3rem;
-  background-color: rgb(1, 9, 22);
+  background-color: rgb(16, 16, 196);
   border-radius: 50px;
   box-shadow: 0px 1px 4px 1px white;
 }
@@ -346,13 +344,13 @@ h1 {
 }
 
 .contacto button {
-  margin-top: 45px;
+  font-family: 'Quicksand';
   color: white;
   font-weight: bold;
-  background-color: transparent;
+  background-color: #3b3bdc;
   border: 2px solid white;
-  padding: 1.25em 2em;
-  margin: 10px;
+  padding: 23px 23px ;
+  margin: 33px;
   border-radius: 100px;
   transition: all 0.2s ease-in-out;
 }
