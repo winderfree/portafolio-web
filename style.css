@@ -9,10 +9,12 @@
   margin: 7px;
 }
 #sombra-desc{
-  text-align: justify;
+  padding: 0.9em;
+  text-align: center;
   color: #f5d72c;
-  background-color: #2e2eea;
-  border-radius: 2.5%;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 5px solid #c3c3c6  ;
   box-shadow: 1px 1px 11px 3px #afafef;
 }
 .proyectos-recientes .imagen-arrow-down{
@@ -28,6 +30,7 @@
 .span-backgroun-red {
   background-color: rgb(214, 53, 53);
 }
+
 .span-backgroun-yellow {
   background-color: rgb(192, 197, 91);
 }
@@ -38,7 +41,7 @@
   background-color: rgb(80, 53, 214);
 }
 .span-backgroun-green {
-  background-color: rgb(26, 190, 61);
+  background-color: rgb(66, 172, 89);
 }
 
 
@@ -72,8 +75,8 @@ h1 {
 }
 
 .seccion-oscura {
-  color: white;
-  background-color: #3b3bdc;
+  color: rgb(237, 228, 228);
+  background-color: #535da6;
 }
 
 .seccion-clara {
@@ -82,6 +85,7 @@ h1 {
 }
 
 .seccion-titulo {
+  color: rgb(234, 233, 238);
   font-size: 2rem;
   padding: 15px 0;
   font-family: 'Times New Roman', Times, serif, cursive;
@@ -135,7 +139,7 @@ h1 {
 /* Sobre mi */
 
 .sobre-mi {
-  height: 500px;
+  height: 600px;
   padding: 10px;
 }
 .sobre-mi .contenedor {
@@ -146,12 +150,17 @@ h1 {
 /* Experiencia */
 
 .experiencia {
-  padding: 40px 40px 60px 40px;
+  padding: 40px;
 }
 
 .experiencia .columna {
+
+  border-radius: 50px;
+  background-color: #535da6;
+  margin: 0.2em;
+  height: auto;
   padding: 20px;
-  border: 2px solid #8080804d;
+  border: 12px solid rgb(239, 232, 232);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -160,12 +169,13 @@ h1 {
 }
 
 .experiencia .columna:hover {
+  height: auto;
   color: white;
   background-color: #1b1b32;
 }
 
 .experiencia i {
-  font-size: 2.5rem;
+  font-size: 2em;
   color: #292f25;
   background-color: #f5f5f8;
   padding: 8px 19px;
@@ -173,17 +183,37 @@ h1 {
 }
 
 .experiencia-titulo {
+  color: #ffffff;
   font-size: 25px;
   font-weight: bold;
-  margin: 10px 0;
+  margin: 10px;
 }
-
 .badges-contenedor {
+  border-radius: 25px;
+  color: transparent;
   font-size: 20px;
   font-weight: bold;
-  margin: 10px 0;
+  padding: 9px;
+  background-color: rgb(233, 224, 243);
 }
-
+.badges-contenedor:hover {
+  font-size: 20px;
+  font-weight: bold;
+  
+  background-color: rgb(221, 219, 225);
+  animation-duration: 6s;
+  animation-name: slidein;
+}@keyframes slidein {
+from {
+  margin: 0%;
+  width: 100%;
+  height:100%;
+}
+to {
+  margin: 0%;
+  width: 0px;
+}
+}
 .badge {
   margin: 5px;
 }
@@ -327,7 +357,7 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -3rem;
-  background-color: rgb(16, 16, 196);
+  background-color: rgb(58, 58, 136);
   border-radius: 50px;
   box-shadow: 0px 1px 4px 1px white;
 }
@@ -347,7 +377,7 @@ h1 {
   font-family: 'Quicksand';
   color: white;
   font-weight: bold;
-  background-color: #3b3bdc;
+  background-color: transparent;
   border: 2px solid white;
   padding: 23px 23px ;
   margin: 33px;
@@ -357,7 +387,7 @@ h1 {
 
 .contacto button:hover {
   background-color: white;
-  color: black;
+  color: rgb(2, 19, 13);
 }
 
 .contacto button i {
@@ -373,7 +403,7 @@ h1 {
 /* Pie de pagina (footer) */
 
 footer {
-  min-height: 500px;
+  min-height: auto;
 }
 
 .footer-logo {
@@ -411,11 +441,11 @@ footer {
 
 .iconos-redes-sociales a:hover {
   background-color: white;
-  border: 2px solid rgb(13, 110, 253);
+  border: 2px solid rgb(34, 187, 169);
 }
 
 .iconos-redes-sociales a:hover i {
-  color: black;
+  color: rgb(61, 165, 113);
 }
 
 .derechos-de-autor {
