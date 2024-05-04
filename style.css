@@ -1,3 +1,7 @@
+.nav-item{
+  font-size: 16px;
+  font-weight: bolder;
+}
 .hero-inferior {
   display: inline-table;
   height: 70px;
@@ -247,7 +251,6 @@ to {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-
 .overlay p {
   font-size: 16px;
   font-weight: bold;
