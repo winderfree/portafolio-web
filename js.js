@@ -2,9 +2,9 @@ console.log("Hola!");
 
 const foto_html = document.querySelector("#html5");
 const foto_css3 = document.querySelector("#css");
-const foto_javascript = document.querySelector("#javascript");
+const foto_javascript = document.querySelector("#JavaScript");
 const foto_c = document.querySelector("#c_sharp");
-const foto_python = document.querySelector("#python");
+const foto_python = document.querySelector("#Python");
 const foto_django = document.querySelector("#django");
 const foto_react = document.querySelector("#react");
 
