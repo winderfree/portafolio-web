@@ -1,4 +1,6 @@
-
+.collapsing .show {
+  transition-duration: 120s;
+}
 
 .nav-item{
   font-size: 16px;
@@ -11,7 +13,7 @@
   margin-bottom: 3rem;
 }
 .img-fluid{
-  height: 90px;
+  height: 4rem;
   margin: 7px;
   background: transparent;
   opacity: 1;
@@ -69,7 +71,7 @@
 
 .navbar-collapse {
   align-items: center;
-  justify-content: space-between;  
+  justify-content: space-between;
 }
 
 /* Estilos generales */
@@ -475,10 +477,16 @@ footer {
   .overlay i {
     font-size: 40px;
   }
+  .img-derecha {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .navbar-brand {
+    display: none;
+  }
+  .img-derecha {
     display: none;
   }
 }
@@ -498,4 +506,5 @@ footer {
   .hero-inferior-imagen {
     max-width: 600px;
   }
+  
 }
