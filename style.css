@@ -540,7 +540,7 @@ footer {
     font-size: 18px;
   }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 991px) {
 
   .btn-oculto {
     visibility: hidden;
