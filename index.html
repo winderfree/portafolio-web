@@ -24,15 +24,9 @@
   </head>
   <body>
     <!-- Barra de navegacion -->
-    <nav class="navbar navbar-expand-md navbar-ligth">
+    <nav class=" navbar navbar-expand-lg navbar-ligth fixed-top bd-navbar">
       <div class="container-fluid">
-        <div class="collapse" id="collapseExample">
-          <div class="card card-body">
-            CV'S Juan S. Casado
-            <a class="nav-item" href="CV-English.pdf" download> CV-English</a>
-            <a class="nav-item" href="CV-Español.pdf" download> CV-Español</a>
-          </div>
-        </div>
+        
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,10 +37,30 @@
           <ul class="navbar-nav d-flex justify-content-center align-items-center">
             <br>
             <li class="nav-item">
-              
-              <a  class="btn nav-link" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                Download-CV
+              <a class="btn btn-primary btn-oculto" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                CV-Download
               </a>
+              
+              
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Juan S. Casado's CV</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    
+                      <p>
+                        <u><i class="bi-arrow-down btn-oculto"></i><i class="btn-oculto">Downloads</i><i class="bi-arrow-down btn-oculto"></i></u>
+                      </p>
+                      <p>
+                        <a class="btn btn-primary btn-oculto " data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" href="./CV-Español.pdf" download>CV-Espanish</a>
+                      </p>
+                      <p>
+                        <a class="btn btn-primary btn-oculto " data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" href="./CV-English.pdf" download>CV-English</a>
+                      </p>
+                        
+                </div>
+              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#sobre-mi">About Me</a>
@@ -54,14 +68,14 @@
             <li class="nav-item">
               <a class="nav-link" href="#proyectos">Projects</a>
             </li>
-            <!--<li class="nav-item">
-              <a class="nav-link" href="#testimonios">Testimonios</a>
-            </li>-->
             <li class="nav-item">
               <a class="nav-link" href="#contacto">Contact</a>
             </li>
-            
-            
+            <li class="nav-item"><i class="btn-visible">Download CV</i>
+              <a class="btn btn-primary nav-link btn-visible" href="./CV-English.pdf" download>CV-English</a>
+
+            </li>
+                      
           </ul>
         </div>
       </div>
@@ -73,6 +87,20 @@
         <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/imagenes-desarrolladores/winder-barbu.jpeg" alt="Foto de Juan Casado">
         <h1>Hello, I am Juan S. Casado</h1>
         <h2>[ Web Developer | Full-Stack ]</h2>
+        <div class="iconos-redes-sociales-superior d-flex flex-wrap align-items-center justify-content-center">
+          <a href="https://web.facebook.com/john0096" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="https://github.com/winderfree/winderfree" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/juan-casado-luna" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="mailto:juans.casado@gmail.com" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-envelope-check-fill"></i>
+          </a>
+        </div>
       </div>
       <div class="hero-inferior">
         <img id="html5" class="img-fluid"  alt="html">
@@ -112,7 +140,6 @@
           <div class="columna col-lg-12 ">
             <i class="bi bi-code "></i>
             <p class="experiencia-titulo">Web Developer</p>
-            <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet, odio eget fringilla scelerisque, sem purus fringilla mauris, nec ultricies nisl nisl sit amet dolor. </p>-->
             <div class="badges-contenedor">
               <span class="span-backgroun-red badge bi bi-filetype-html"> HTML</span>
               <span class="span-backgroun-azul badge bi-filetype-css"> CSS</span>
@@ -191,7 +218,7 @@
             </div>
           </div>
           <!-- Proyecto 3 -->
-          <div class="col-12 col-md-6 col-lg-4">
+          <!-- <div class="col-12 col-md-6 col-lg-4">
             <div class="proyecto">
               <img src="imagenes/proyecto.svg" alt="Proyecto 1">
               <div class="overlay">
@@ -206,7 +233,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
           <!-- Proyecto 4 -->
           <div class="col-12 col-md-6 col-lg-4">
             <div class="proyecto">
